@@ -4,6 +4,7 @@
 
 const path = require("path");
 const client = require("./src/client.js");
+const port = process.env.PORT || 3000;
 
 const fastify = require("fastify")({
   logger: false
@@ -51,7 +52,7 @@ fastify.get("/postAll", async (request, reply) => {
 });
 
 // Run the server and report out to the logs
-fastify.listen(10000, function(err, address) {
+fastify.listen(port, function(err, address) {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
