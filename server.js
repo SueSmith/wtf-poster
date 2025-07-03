@@ -51,7 +51,7 @@ fastify.get("/postAll", async (request, reply) => {
 });
 
 // Run the server and report out to the logs
-fastify.listen(3000, function(err, address) {
+fastify.listen(10000, function(err, address) {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
