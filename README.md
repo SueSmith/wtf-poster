@@ -1,5 +1,7 @@
 # WTF Poster!
 
+![This project in Glitch](https://github.com/user-attachments/assets/a9d47486-95fa-4e8f-8c3d-016ebd463069)
+
 🎏 **[Check out the tutorial](https://dev.to/glitch/autopost-to-bluesky-and-mastodon-by-api-500d)**
 
 This project is an autoposter for Mastodon and Bluesky.
